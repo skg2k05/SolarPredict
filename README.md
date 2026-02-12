@@ -4,33 +4,33 @@ This project predicts solar power output using environmental parameters such as 
 
 The system is built using Linear Regression and achieves high prediction accuracy.
 
-##Dataset
--Solar Power Generation Data (Plant 1) – Kaggle
+## Dataset
+- Solar Power Generation Data (Plant 1) – Kaggle
 
 ## Features Used:
--Irradiation
--Ambient Temperature
--Module Temperature
+- Irradiation
+- Ambient Temperature
+- Module Temperature
 
-##Target:
--AC Power (converted to kW)
--Model Performance
--R² Score: ~0.98
--MAE: ~0.026 kW
--RMSE: ~0.055 kW
--Cross-Validation R²: ~0.978
+## Target:
+- AC Power (converted to kW)
+- Model Performance
+- R² Score: ~0.98
+- MAE: ~0.026 kW
+- RMSE: ~0.055 kW
+- Cross-Validation R²: ~0.978
 
 ## Capabilities
--Solar output prediction
--Performance evaluation
--Residual analysis
--Basic recommendation logic
+- Solar output prediction
+- Performance evaluation
+- Residual analysis
+- Basic recommendation logic
 
 ## Technologies Used
--Python
--Pandas
--Scikit-learn
--Matplotlib
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
 -Seaborn
 
 ## Social Impact
