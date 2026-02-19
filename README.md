@@ -28,6 +28,20 @@ The system is built using Linear Regression and achieves high prediction accurac
 - Residual analysis
 - Basic recommendation logic
 
+## Streamlit UI
+This project also includes an interactive Streamlit application.
+
+To run locally:
+- pip install streamlit
+- streamlit run streamlit_app.py
+
+The app allows users to:
+- Input irradiation
+- Input ambient temperature
+- Input module temperature
+- Get predicted solar output
+- Receive performance recommendations
+
 ## Technologies Used
 - Python
 - Pandas
