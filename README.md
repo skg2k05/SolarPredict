@@ -1,5 +1,5 @@
 # SolarPredict
-### Solar Power Output Prediction using Linear Regression
+### "Solar Power Output Prediction using Linear Regression"
 
 ## Project Overview
 This project predicts solar power output using environmental parameters such as irradiation and temperature.
