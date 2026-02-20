@@ -34,14 +34,15 @@ if st.button("Predict Solar Output"):
 
     # Simple Recommendation Logic
     if irradiation > 800 and prediction < 0.5:
-        st.warning("⚠️Output lower than expected under high radiation. Inspect panels.⚠️")
+        st.warning("⚠️ Output lower than expected under high radiation. Inspect panels ⚠️")
 
     elif module_temp > 50:
-        st.warning("⚠️High module temperature may reduce efficiency.⚠️")
+        st.warning("⚠️ High module temperature may reduce efficiency ⚠️")
 
     elif irradiation < 200:
-        st.info("ℹ️Low sunlight conditions. Reduced output expected.ℹ️")
+        st.info("ℹ️ Low sunlight conditions. Reduced output expected ℹ️")
 
     else:
-        st.success("✅System operating normally.✅")
+        st.success("✅ System operating normally ✅")
+
 
