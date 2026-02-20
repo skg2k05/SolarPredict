@@ -2,52 +2,45 @@
 ### "AI-Based Solar Power Output Prediction using Linear Regression"
 
 ## Project Overview
-This project predicts solar power output using environmental parameters such as irradiation and temperature.
+SolarPredict is a machine learning-based system that predicts solar power output using environmental parameters such as irradiation and temperature.
+The system is built using Linear Regression and trained on real-world solar plant data from Kaggle.
 
-The system is built using Linear Regression and achieves high prediction accuracy.
+## Live Demo
+Try it here:
+https://solarpredict-skg2k05.streamlit.app/
 
-## Dataset
-- Solar Power Generation Data (Plant 1) – Kaggle
+## Algorithm Used:
+Linear Regression
 
 ## Features Used:
 - Irradiation
 - Ambient Temperature
 - Module Temperature
-
-## Target:
+### Target Variable :
 - AC Power (converted to kW)
-- Model Performance
+
+## Model Performance
 - R² Score: ~0.98
 - MAE: ~0.026 kW
 - RMSE: ~0.055 kW
 - Cross-Validation R²: ~0.978
 
-## Capabilities
-- Solar output prediction
-- Performance evaluation
-- Residual analysis
-- Basic recommendation logic
+## Streamlit UI Features
+- Interactive sliders for environmental input
+- Real-time solar output prediction
+- Performance recommendation system
+- Clean user-friendly interface
 
-## Streamlit UI
-This project also includes an interactive Streamlit application.
-
-To run locally:
-- pip install streamlit
-- streamlit run streamlit_app.py
-
-The app allows users to:
-- Input irradiation
-- Input ambient temperature
-- Input module temperature
-- Get predicted solar output
-- Receive performance recommendations
+## How It Helps Society
+- Helps schools estimate solar generation
+- Assists industries in monitoring efficiency
+- Allows homeowners to simulate expected output
+- Supports renewable energy planning and sustainability
 
 ## Technologies Used
 - Python
 - Pandas
 - Scikit-learn
 - Matplotlib
--Seaborn
-
-## Social Impact
-Helps institutions and homeowners estimate expected solar output and monitor efficiency.
+- Seaborn
+- Streamlit
